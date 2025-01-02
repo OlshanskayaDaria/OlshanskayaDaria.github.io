@@ -1,0 +1,107 @@
+style.css
+body {
+min-width: 1440px;
+min-height: 100vh;
+margin: 0;
+font-family: "Lora", "Palatino Linotype", serif;
+font-size: 18px;
+line-height: 1.5;
+color: #A9A9A9;
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+overflow: hidden;
+border: 0 none;
+clip-path: inset(100%);
+  color: #A9A9A9;
+}
+.container {
+width: 1240px;
+margin: 0 auto;
+}
+body {
+display: grid;
+grid-template-rows: auto 1fr auto;
+min-width: 1440px;
+min-height: 100vh;
+margin: 0;
+font-family: "Lora", "Palatino Linotype", serif;
+font-size: 18px;
+line-height: 1.5;
+color: #1f1e1c;
+}
+<header class="header">
+ <nav class="header-nav container">
+ <a class="logo" href="index.html">
+ <img src="img/logo.svg" width="144" height="19" alt="Логотип новостного сайта
+Performance">
+ </a>
+ <ul class="menu">
+ <li class="menu-item">
+ <a class="menu-item-link" href="#">Тренды</a>
+ </li>
+ <li class="menu-item">
+ <a class="menu-item-link" href="#">Советы стилистов</a>
+ </li>
+ <li class="menu-item">
+ <a class="menu-item-link" href="#">Одежда</a>
+ </li>
+ <li class="menu-item">
+ <a class="menu-item-link" href="#">Последние коллекции</a>
+ </li>
+ <li class="menu-item">
+ <a class="menu-item-link" href="#">Стиль жизни</a>
+ </li>
+ </ul>
+ </nav>
+.menu {
+display: flex;
+flex-wrap: wrap;
+justify-self: end;
+margin: 0;
+padding: 0;
+list-style: none;
+color: #000000;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+}
+
+ <footer class="footer">
+ <div class="footer-content container">
+ <a class="logo" href="index.html">
+ <img src="img/logo.svg" alt="Главная страница сайта Performance" width="144"
+height="19">
+ </a>
+ <p class="footer-copyright">© 2021 Все права защищены</p>
+ </div>
+ </footer>
+…
+.article-figure-wide {
+grid-column: span 2;
+}
+/* подвал */
+.footer-content {
+display: grid;
+grid-template-columns: 145px 1fr;
+grid-column-gap: 50px;
+align-items: center;
+min-height: 80px;
+box-sizing: border-box;
+}
+.footer-copyright {
+margin: 0;
+font-size: 14px;
+line-height: 1.5;
+j
+  /* подвал */
+.footer {
+border-top: 1px solid rgba(31,30,28,0.2);
+}
+.footer-content {
+…
+}
